@@ -81,9 +81,6 @@ function draw() {
     line(width - 50, by, width, by);
 
 
-    if(this.score < 0 ){
-        location.reload();
-    }
 }
 
 function keyPressed(){
